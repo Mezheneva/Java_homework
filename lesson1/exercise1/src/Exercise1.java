@@ -15,6 +15,7 @@ public class Exercise1 {
         length = random.nextInt(10);
         width  = random.nextInt(10);
 
+
         area = 2 * (height * length + length * width + height * width);
 
         System.out.println( "height = "+height+" length = "+length+" width = "+width
@@ -27,3 +28,4 @@ public class Exercise1 {
         System.out.println(comparisonResult);
     }
 }
+
